@@ -1,4 +1,5 @@
 #!/bin/bash
+#./downloadGIthubDirs.sh https://github.com/kubernetes/kubernetes/tree/master/cluster/addons
 url=$1
 if [ -z "$url" ]; then
 	echo "usage: ./downloadGIthubDirs.sh github_url"
